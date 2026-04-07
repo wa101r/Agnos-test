@@ -1,0 +1,28 @@
+{
+  "name": "agnos-ai-dashboard-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:sync": "npm run test && npm run sheets:sync",
+    "test:headed": "playwright test --headed",
+    "test:headed:sync": "npm run test:headed && npm run sheets:sync",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --headed --debug",
+    "test:login": "playwright test tests/auth-login.spec.ts --headed",
+    "test:report": "playwright show-report",
+    "sheets:test": "node scripts/test-google-sheets.js",
+    "sheets:sync": "node scripts/sync-playwright-results-to-sheets.js",
+    "report:ai": "node scripts/generate-ai-report.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^22.13.10",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.5.10",
+    "googleapis": "^171.4.0",
+    "openai": "^6.33.0"
+  }
+}
