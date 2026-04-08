@@ -25,31 +25,31 @@
 
 ## 4. Manual Test Execution Result
 
-| Test Case ID | Scenario | Expected Result | Status | Actual Result / Notes | Evidence |
-| --- | --- | --- | --- | --- | --- |
-| TC-REG-001 | สมัครสมาชิกด้วยข้อมูลถูกต้อง | ระบบสร้างบัญชีใหม่สำเร็จ | Not Run |  |  |
-| TC-REG-002 | สมัครสมาชิกด้วยอีเมลที่ถูกใช้งานแล้ว | ระบบแจ้งว่าอีเมลถูกใช้งานแล้ว | Not Run |  |  |
-| TC-REG-003 | สมัครสมาชิกโดยไม่กรอกข้อมูลบังคับ | ระบบแสดง validation message | Not Run |  |  |
-| TC-LOG-001 | เข้าสู่ระบบด้วยข้อมูลถูกต้อง | ผู้ใช้เข้าสู่ Dashboard ได้สำเร็จ | Not Run |  |  |
-| TC-LOG-002 | เข้าสู่ระบบด้วยรหัสผ่านไม่ถูกต้อง | ระบบแจ้งข้อผิดพลาดและไม่ให้เข้าใช้งาน | Not Run |  |  |
-| TC-LOG-003 | ออกจากระบบหลัง login สำเร็จ | ระบบออกจากระบบและกลับหน้า Login | Not Run |  |  |
-| TC-NAV-001 | เปิดหน้า Diagnosis List | ระบบแสดงหน้ารายการเคสถูกต้อง | Not Run |  |  |
-| TC-NAV-002 | สลับแท็บ Open | ระบบแสดงรายการเคสสถานะ Open | Not Run |  |  |
-| TC-NAV-003 | สลับแท็บ In progress | ระบบแสดงรายการเคสสถานะ In progress | Not Run |  |  |
-| TC-NAV-004 | สลับแท็บ Completed | ระบบแสดงรายการเคสสถานะ Completed | Not Run |  |  |
-| TC-NAV-005 | สลับแท็บ All | ระบบแสดงรายการเคสทั้งหมด | Not Run |  |  |
-| TC-SRH-001 | ค้นหาข้อมูลด้วยคำค้นที่มีอยู่จริง | ระบบแสดงผลลัพธ์ตรงกับคำค้น | Not Run |  |  |
-| TC-SRH-002 | ค้นหาด้วยคำค้นที่ไม่มีข้อมูล | ระบบแสดงผลลัพธ์ว่างหรือไม่พบข้อมูล | Not Run |  |  |
-| TC-FLT-001 | กรองข้อมูลตาม Triage: Self care | ระบบแสดงเฉพาะเคส Self care | Not Run |  |  |
-| TC-FLT-002 | กรองข้อมูลตาม Triage: Seek Medical | ระบบแสดงเฉพาะเคส Seek Medical | Not Run |  |  |
-| TC-FLT-003 | กรองข้อมูลตาม Triage: Urgent | ระบบแสดงเฉพาะเคส Urgent | Not Run |  |  |
-| TC-FLT-004 | กรองข้อมูลตาม Triage: Emergency | ระบบแสดงเฉพาะเคส Emergency | Not Run |  |  |
-| TC-FLT-005 | กรองข้อมูลตามวันที่ด้วย Today | ระบบอัปเดตผลลัพธ์ตามวันที่ที่เลือก | Not Run |  |  |
-| TC-FLT-006 | กรองข้อมูลตามวันที่ด้วย This week | ระบบอัปเดตผลลัพธ์ตามช่วงวันที่ที่เลือก | Not Run |  |  |
-| TC-FLT-007 | กรองข้อมูลตาม Channel | ระบบอัปเดตผลลัพธ์ตาม channel ที่เลือก | Not Run |  |  |
-| TC-FLT-008 | กรองข้อมูลแบบผสม | ระบบแสดงผลลัพธ์ตามทุกเงื่อนไข | Not Run |  |  |
-| TC-DWN-001 | ดาวน์โหลดข้อมูลจาก Dashboard | ระบบดาวน์โหลดสำเร็จและแสดงข้อความยืนยัน | Not Run |  |  |
-| TC-DWN-002 | ดาวน์โหลดข้อมูลหลังกรองผลลัพธ์ | ระบบดาวน์โหลดตามผลลัพธ์ที่กรองแล้ว | Not Run |  |  |
+| Test Case ID | Scenario | Expected Result | Manual Status | Auto Test Result | Actual Result / Notes | Evidence |
+| --- | --- | --- | --- | --- | --- | --- |
+| TC-REG-001 | สมัครสมาชิกด้วยข้อมูลถูกต้อง | ระบบสร้างบัญชีใหม่สำเร็จ | Not Run | N/A |  |  |
+| TC-REG-002 | สมัครสมาชิกด้วยอีเมลที่ถูกใช้งานแล้ว | ระบบแจ้งว่าอีเมลถูกใช้งานแล้ว | Not Run | N/A |  |  |
+| TC-REG-003 | สมัครสมาชิกโดยไม่กรอกข้อมูลบังคับ | ระบบแสดง validation message | Not Run | N/A |  |  |
+| TC-LOG-001 | เข้าสู่ระบบด้วยข้อมูลถูกต้อง | ผู้ใช้เข้าสู่ Dashboard ได้สำเร็จ | Not Run | Pass |  |  |
+| TC-LOG-002 | เข้าสู่ระบบด้วยรหัสผ่านไม่ถูกต้อง | ระบบแจ้งข้อผิดพลาดและไม่ให้เข้าใช้งาน | Not Run | N/A |  |  |
+| TC-LOG-003 | ออกจากระบบหลัง login สำเร็จ | ระบบออกจากระบบและกลับหน้า Login | Not Run | Pass |  |  |
+| TC-NAV-001 | เปิดหน้า Diagnosis List | ระบบแสดงหน้ารายการเคสถูกต้อง | Not Run | Pass |  |  |
+| TC-NAV-002 | สลับแท็บ Open | ระบบแสดงรายการเคสสถานะ Open | Not Run | Pass |  |  |
+| TC-NAV-003 | สลับแท็บ In progress | ระบบแสดงรายการเคสสถานะ In progress | Not Run | Pass |  |  |
+| TC-NAV-004 | สลับแท็บ Completed | ระบบแสดงรายการเคสสถานะ Completed | Not Run | Pass |  |  |
+| TC-NAV-005 | สลับแท็บ All | ระบบแสดงรายการเคสทั้งหมด | Not Run | Pass |  |  |
+| TC-SRH-001 | ค้นหาข้อมูลด้วยคำค้นที่มีอยู่จริง | ระบบแสดงผลลัพธ์ตรงกับคำค้น | Not Run | Pass |  |  |
+| TC-SRH-002 | ค้นหาด้วยคำค้นที่ไม่มีข้อมูล | ระบบแสดงผลลัพธ์ว่างหรือไม่พบข้อมูล | Not Run | N/A |  |  |
+| TC-FLT-001 | กรองข้อมูลตาม Triage: Self care | ระบบแสดงเฉพาะเคส Self care | Not Run | N/A |  |  |
+| TC-FLT-002 | กรองข้อมูลตาม Triage: Seek Medical | ระบบแสดงเฉพาะเคส Seek Medical | Not Run | N/A |  |  |
+| TC-FLT-003 | กรองข้อมูลตาม Triage: Urgent | ระบบแสดงเฉพาะเคส Urgent | Not Run | N/A |  |  |
+| TC-FLT-004 | กรองข้อมูลตาม Triage: Emergency | ระบบแสดงเฉพาะเคส Emergency | Not Run | N/A |  |  |
+| TC-FLT-005 | กรองข้อมูลตามวันที่ด้วย Today | ระบบอัปเดตผลลัพธ์ตามวันที่ที่เลือก | Not Run | Pass |  |  |
+| TC-FLT-006 | กรองข้อมูลตามวันที่ด้วย This week | ระบบอัปเดตผลลัพธ์ตามช่วงวันที่ที่เลือก | Not Run | N/A |  |  |
+| TC-FLT-007 | กรองข้อมูลตาม Channel | ระบบอัปเดตผลลัพธ์ตาม channel ที่เลือก | Not Run | Pass |  |  |
+| TC-FLT-008 | กรองข้อมูลแบบผสม | ระบบแสดงผลลัพธ์ตามทุกเงื่อนไข | Not Run | N/A |  |  |
+| TC-DWN-001 | ดาวน์โหลดข้อมูลจาก Dashboard | ระบบดาวน์โหลดสำเร็จและแสดงข้อความยืนยัน | Not Run | Pass |  |  |
+| TC-DWN-002 | ดาวน์โหลดข้อมูลหลังกรองผลลัพธ์ | ระบบดาวน์โหลดตามผลลัพธ์ที่กรองแล้ว | Not Run | N/A |  |  |
 
 ## 5. Summary Result
 
@@ -59,6 +59,14 @@
 | Fail | 0 |
 | Blocked | 0 |
 | Not Run | 23 |
+
+## 5.1 Automated Test Summary
+
+| Auto Result Type | Count |
+| --- | --- |
+| Pass | 10 |
+| Fail | 0 |
+| N/A | 13 |
 
 ## 6. Defect Summary
 
@@ -82,7 +90,7 @@
 
 ตัวอย่าง:
 
-| Test Case ID | Scenario | Expected Result | Status | Actual Result / Notes | Evidence |
-| --- | --- | --- | --- | --- | --- |
-| TC-LOG-001 | เข้าสู่ระบบด้วยข้อมูลถูกต้อง | ผู้ใช้เข้าสู่ Dashboard ได้สำเร็จ | Pass | สามารถ login และเห็นหน้า Diagnosis List ได้ตามคาด | screenshot_login_pass.png |
-| TC-LOG-002 | เข้าสู่ระบบด้วยรหัสผ่านไม่ถูกต้อง | ระบบแจ้งข้อผิดพลาดและไม่ให้เข้าใช้งาน | Fail | ระบบไม่แสดงข้อความ error แม้กรอกรหัสผ่านผิด | screenshot_login_fail.png |
+| Test Case ID | Scenario | Expected Result | Manual Status | Auto Test Result | Actual Result / Notes | Evidence |
+| --- | --- | --- | --- | --- | --- | --- |
+| TC-LOG-001 | เข้าสู่ระบบด้วยข้อมูลถูกต้อง | ผู้ใช้เข้าสู่ Dashboard ได้สำเร็จ | Pass | Pass | สามารถ login และเห็นหน้า Diagnosis List ได้ตามคาด | screenshot_login_pass.png |
+| TC-LOG-002 | เข้าสู่ระบบด้วยรหัสผ่านไม่ถูกต้อง | ระบบแจ้งข้อผิดพลาดและไม่ให้เข้าใช้งาน | Fail | N/A | ระบบไม่แสดงข้อความ error แม้กรอกรหัสผ่านผิด | screenshot_login_fail.png |
