@@ -10,8 +10,8 @@
 - Sign Up URL: `https://dev.app.agnoshealth.com/ai dashboard/agnos/sign up`
 - Public App URL สำหรับสร้าง Record: `https://dev.app.agnoshealth.com`
 - Test Account:
-  - Username: `test@gmail.com`
-  - Password: `12345`
+  - Username: `provided_test_email`
+  - Password: `provided_test_password`
 
 ## 2. ขอบเขตการทดสอบ
 
@@ -86,8 +86,8 @@
 
 ## 7. Test Data
 
-- Username: `test@gmail.com`
-- Password: `12345`
+- Username: `provided_test_email`
+- Password: `provided_test_password`
 - ข้อมูล record ที่ใช้ทดสอบ:
   - ควรมีอย่างน้อย 1 record สำหรับ search
   - ควรมีหลาย record ที่มี triage ต่างกัน

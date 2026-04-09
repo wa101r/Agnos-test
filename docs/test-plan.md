@@ -34,8 +34,8 @@ Validate key AI Dashboard workflows for functional correctness, usability, and d
 - Sign up URL: `https://dev.app.agnoshealth.com/ai dashboard/agnos/sign up`
 - Record creation URL: `https://dev.app.agnoshealth.com`
 - Test account:
-  - Username: `test@gmail.com`
-  - Password: `12345`
+  - Username: `provided_test_email`
+  - Password: `provided_test_password`
 
 ## 4. Entry / Exit Criteria
 
@@ -92,7 +92,7 @@ Prioritize stable, high-value regression scenarios:
 
 ## 8. Test Data
 
-- Existing user: `test@gmail.com / 12345`
+- Existing user: `provided_test_email / provided_test_password`
 - Create at least one new patient record from public app before running search/filter/download scenarios
 - Recommended record fields to control:
   - Unique patient name

@@ -78,8 +78,8 @@ npm run test:report
 
 ```env
 BASE_URL=https://dev.app.agnoshealth.com
-AGNOS_USERNAME=test@gmail.com
-AGNOS_PASSWORD=12345
+AGNOS_USERNAME=provided_test_email
+AGNOS_PASSWORD=provided_test_password
 ```
 
 ถ้ารันในเครื่อง local ให้ใส่ค่าเดียวกันไว้ในไฟล์ `.env`
